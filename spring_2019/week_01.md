@@ -1,16 +1,11 @@
 ## Last Week's Accomplishments
 
-> In this section, you can write about what you accomplished in the previous week.
-
-> This past week, I was able to implement the the dialog box for creating a new user in the front end. I \
-> learned how to send requests in JavaScript to the backend API.
+	The past two weeks I have spent my time learning JavaScript and Angular. I have fully completed the JavaScript tutorial and have a good understanding of the fundamentals. Throughout the JavaScript tutorial I learned the basic syntax, different ways to create objects, and web API's just to name a few. I am still a little confused on API's so I would like to review them when I finish the Angular tutorial. 
+	I am about half way through the Angular tutorial. So far I have learned how to create and display components by alerting the css, ts, and html files. In order to display something from a typescript file we must double curly braces which is interpolation binding. Also, if we want the user to be able to change something we displayed, we need to user [(ngModel)] which allows for two way data binding.
 
 ## This Week's Plan
 
-> In this section, you can write about what you have planned for next week.
-
-> After my accomplishments from last week, I plan to add accessibility features to the user creation dialog box. \
-> I also plan on attending the git workshop this week.
+This week I plan to finish the angular tutorial and begin learning about MongoDB. Also, I would like to review javascript API's and closures.
 
 ## Anything Blocking?
 
