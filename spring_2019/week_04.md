@@ -1,17 +1,13 @@
 ## Last Week's Accomplishments
-	Last week I completed my goal of learning how to apply mongodb by creating a simple web application using the mean stack. I watched a tutorial on youtube on how to build a mean stack application so I could learn how all the technologies work with each other. The application had simple functions such as add and removing a person's contact information from a database. First the database was created using node and express to allow for contacts to be added and removed from the database as well as create the routing to allow for this. Angular was used to pull data from out api and add functionality so the user could add and delete contacts.
-	
+	This week I began working on my first bug. The issue I was trying to fix is that a student user is allowed to verify their own submission when only instructors should have access to this feature. I began by figuring out where the validate button is created which was in the the submissionCard.html file. The button would only should if the upload was not verified yet, so I should just need to add a check to see if the user a is an instructor or not. There is a function to check whether the user is an instructor or not within the submissionView.controller file but it does not seem to work. I used console logs to check the value of the isInstructor variable after the function is executed and the variable evaluates to false when the user is an instructor or a student. I tried to figure out what was causing this issue but could not. Instead I documented both component files so the code was easier to understand.
 
 ## This Week's Plan
 
-This week I will begin to read through the source code so I can work on my first bug.
+This week I hope to figure out the problem described above so I can fix the bug.
 
 ## Anything Blocking?
 
-> In this section, you can write about any blockers that you are having trouble in the project.
-
-> I don't know how to test the accessibility features I am going to be implementing this week, so i am going to \
-> ask my mentors if they have any suggestions.
+I do not understand why isInstructor is false for both a student user and an instructor user.
 
 ## Notes
 
